@@ -23,4 +23,8 @@ function makeCollumns(cellNum){
     }
 }
 
-createGrid(16, 16)
+createGrid(16, 16);
+
+divCell.addEventListener('mouseover', function(){
+    divCell.setAttribute('style','background-color:blue;')
+})
