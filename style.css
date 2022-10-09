@@ -1,11 +1,10 @@
-#divWrapper{
-    border: 3px solid black;
-    display: grid;
+.gridCell{
+    border: 1px solid red;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
 }
 
-.colorDivs{
-    width: 20px;
-    height: 20px;
-    border: 2px solid red;
+.gridCell:hover {
+    background-color: aqua;
 }
-
