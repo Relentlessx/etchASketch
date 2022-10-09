@@ -9,3 +9,28 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+#divWrapper{
+    width: 100%;
+    border: 1px solid black;
+}
+
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
