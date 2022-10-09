@@ -1,5 +1,5 @@
 .gridCell{
-    border: 1px solid red;
+    border: 1px solid black;
     min-width: 20px;
     min-height: 20px;
     display: inline-block;
@@ -7,16 +7,16 @@
 
 .gridRow{
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: -4px;
 }
 
 #divWrapper{
     width: 100%;
-    border: 1px solid black;
+    text-align: center;
 }
 
 button{
-  background-color: #4CAF50; /* Green */
+  background-color: #464646; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -27,10 +27,14 @@ button{
   margin-bottom: 20px;
 }
 
-button:hover {background-color: #3e8e41}
+button:hover {background-color: #a3a3a3}
 
 button:active {
-  background-color: #3e8e41;
+  background-color: #bbbbbb;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.btnClass{
+    text-align: center;
 }
