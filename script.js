@@ -32,7 +32,7 @@ function random_rgba() {
     return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
 }
 
-let color = random_rgba();
+
 
 function makeCollumns(cellNum){
     for (i = 0; i < divRow.length; i++){
@@ -40,6 +40,7 @@ function makeCollumns(cellNum){
             let newCell = document.createElement("div");
             divRow[j].appendChild(newCell).className = "gridCell";
             newCell.addEventListener('mouseover', function(){
+                let color = random_rgba();
                 newCell.style.backgroundColor = color;
             })
         }
