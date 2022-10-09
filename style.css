@@ -1,23 +1,34 @@
 .gridCell{
-    border: 1px solid black;
-    min-width: 20px;
-    min-height: 20px;
+    border: 1px solid black;   
+    flex: auto;
     display: inline-block;
 }
 
 .gridRow{
     margin-top: 0px;
     margin-bottom: -4px;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#containerDiv{
+  display: flex;
+  justify-content: center;
 }
 
 #divWrapper{
     width: 100%;
     text-align: center;
-    
+    width: 800px;
+    height: 800px;
+    border: 1px solid pink;
+    display: flex;
+
 }
 
 button{
-  background-color: #464646; /* Green */
+  background-color: #464646;
   border: none;
   color: white;
   padding: 15px 32px;
